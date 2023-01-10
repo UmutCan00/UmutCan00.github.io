@@ -8,15 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <label id="no"> 0 </label> <br>
-   
-    <button id = "decbutton"> Decrease </button>
-
-    <button id = "incbutton"> Increase </button>
-    <br>
-    <script src="index.js" ></script>
-
-    
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0 : 0</div>
+        <button id="resetBtn">Reset</button>
+        <button id="auto">Auto</button>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
